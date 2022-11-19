@@ -122,19 +122,23 @@ body{
     width: calc(100% -75px);
     height: 100%;
     padding: 18px;
+    align-items: center;
 }
 
 .card .content h3{
+    align-items: center;
     font-size:2em;
     margin-bottom: 5px;
     font-weight: 500;
 }
 
-.card .content p{  
+.card .content p{ 
+    align-items: center; 
     font-size: 0.8em;
 }
 
 .card .content a{
+    align-items: center;
     display: inline-block;
     font-size: 1em;
     margin-top: 10px;
