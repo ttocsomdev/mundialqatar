@@ -59,7 +59,7 @@ body{
     font-size:  4em;
 } 
 
-.card .imgbox .fa{
+.card .imgbox .fa .angular{
     background-color: #ff1414;
     background-image: linear-gradient(45deg,#ff1414 0%,#d68476 75%);
     background-clip: text;
@@ -74,7 +74,7 @@ body{
        font-size: 6.5rem;
 }
 }
-.card .imgbox .fa{
+.card .imgbox .fa .react{
     background-color: #74ebd5;
     background-image: linear-gradient(45deg,#74ebd5 0%,#9face6 100%);
     background-clip: text;
@@ -90,7 +90,7 @@ body{
     }
 }
 
-.card .imgbox .fa{
+.card .imgbox .fa .vuejs{
     background-color: #418883;
     background-image: linear-gradient(45deg,#418883 0%,#418883 100%);
     background-clip: text;
@@ -122,24 +122,26 @@ body{
     width: calc(100% -75px);
     height: 100%;
     padding: 18px;
-    align-items: center;
+   
 }
 
 .card .content h3{
     align-items: center;
+    text-align: center;
     font-size:2em;
     margin-bottom: 5px;
     font-weight: 500;
 }
 
 .card .content p{ 
+    text-align: relative;
     align-items: center; 
     font-size: 0.8em;
 }
-
 .card .content a{
-    align-items: center;
-    display: inline-block;
+    justify-items: center;
+    display: flow-root;
+    text-align: center;
     font-size: 1em;
     margin-top: 10px;
     border-radius: 5px;
@@ -158,12 +160,12 @@ body{
 }
 
 .card .content #react{
-    color: #ff5165;
+    color: #74ebd5;
     text-transform: uppercase;
 }
 
 .card .content #vuejs{
-    color: #ff5165;
+    color: #418883;
     text-transform : uppercase;
 }
 
